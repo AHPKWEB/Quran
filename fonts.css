@@ -1,0 +1,91 @@
+/************************
+01: AlQalamQuranMajeed
+DEVELOPER:ABDUL MAJEED KHAN Modify Muhammad Farooq
+************************/
+@font-face {
+	font-family: "AlQalamQuranMajeed";
+	src: url("font/Al_Qalam_2.44e7b69.eot");
+	src: url("font/Al_Qalam_2.44e7b69.eot#iefix") format("embedded-opentype"),
+	url("font/Al_Qalam_2.44e7b69.woff") format("woff"),
+	url("font/Al_Qalam_2.44e7b69.woff2") format("woff2"),
+	url("font/Al_Qalam_2.44e7b69.ttf") format("truetype"),
+	url("font/Al_Qalam_2.44e7b69.otf") format("opentype"),
+	url("font/Al_Qalam_2.44e7b69.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+/************************
+02: Quran Sura Titles
+DEVELOPER: Muhammad Farooq
+************************/
+@font-face {
+	font-family: "sura_title";
+	src: url("font/QuranTitles.192cecd.eot");
+	src: url("font/QuranTitles.192cecd.eot#iefix") format("embedded-opentype"),
+	url("font/QuranTitles.192cecd.woff") format("woff"),
+	url("font/QuranTitles.192cecd.woff2") format("woff2"),
+	url("font/QuranTitles.192cecd.ttf") format("truetype"),
+	url("font/QuranTitles.192cecd.otf") format("opentype"),
+	url("font/QuranTitles.192cecd.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/************************
+03: Quran Surah Name svg
+DEVELOPER: elharrakfonts.com
+************************/
+@font-face {
+	font-family: "Quransurah_name";
+	src: url("font/QuranSurah1-mLKO5.eot");
+	src: url("font/QuranSurah1-mLKO5.eot#iefix") format("embedded-opentype"),
+	url("font/QuranSurah1-mLKO5.woff2") format("woff2"),url("font/QuranSurah1-mLKO5.woff") format("woff"),
+	url("font/QuranSurah1-mLKO5.ttf") format("truetype"),
+	url("font/QuranSurah1-mLKO5.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+} 
+/************************
+04: Surah Names
+DEVELOPER: Muhammad Farooq
+************************/
+@font-face {
+    font-family: surahnames;
+    src: url(font/sura_names.woff2);
+	src: url("font/sura_names.ttf") format("truetype"),
+	url(font/sura_names.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+} 
+/************************
+05: Basmalah
+DEVELOPER:King Fahd Glorious Quran Printing Complex
+************************/
+@font-face {
+    font-family: Basmalah;
+    src: src: url("font/Basmalah.eot");
+	src: url("font/Basmalah.eot#iefix") format("embedded-opentype"),
+	url("font/Basmalah.otf") format("opentype"),
+	url(font/Basmalah.woff2) format("woff2"),
+	url(font/Basmalah.woff) format("woff");
+	font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+} 
+/************************
+06: Arabic Mushaf Al-Quran 
+DEVELOPER:Lajnah Pentashihan M Zamroni Ahbab
+************************/
+@font-face {
+	font-family: "Arabic";
+	src: url("font/Arabic.eot");
+	src: url("font/Arabic.eot#iefix") format("embedded-opentype"),
+	url("font/Arabic.otf") format("opentype");
+	url("font/Arabic.woff") format("woff"),
+	url("font/Arabic.woff2") format("woff2"),
+	url("font/Arabic.ttf") format("truetype"),
+	url("font/Arabic.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+} 
