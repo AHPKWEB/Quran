@@ -1,0 +1,98 @@
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+.suraFont {
+    font-family: sura_title;
+	color: #4CAF50;
+	font-size: 55px;
+}
+.Basmalah {
+    font-family: Basmalah;
+	color: #2196f3;
+	font-size: 45px;
+	line-height: 0;
+}
+ul {
+  list-style:none;
+  font-family:verdana,sans-serif;
+  font-weight:bold;
+  text-align:left;
+  width:550px;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: pink;
+  font-size: 150%;
+  border-top: 3px solid pink;
+  border-bottom: 3px solid pink;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+li .a{
+  background-color:#046380;
+  border-bottom:1px solid #efecca;
+  color:#efecca;
+  display:block;
+  text-decoration:none;
+  padding:8px 15px;
+}
+strong {
+  background-color: purple;
+  color: white;
+  padding: 0 8px;
+  border-top: 3px solid purple;
+  border-bottom: 3px solid purple;
+  text-shadow: 2px 2px 1px black;
+}
+.surahs {
+    z-index: 0;
+    height: 100%;
+    
+}
+.surahs > div {
+    color: rgb(3, 160, 255);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    float: right;
+    direction: rtl;
+    width: calc(100% - 10%);
+    transition: .3s color ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+    counter-increment: surah-counter;
+	max-width: 1120px;
+	border-bottom: 1px solid blue;
+}
+.surahs > div ar {
+    color: #4caf50;
+	font-family: "AlQalamQuranMajeed" !important;
+	font-size: 30px;
+    line-height: 195%;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+    
+}
+.surahs > div ur {
+    color: #0d47a1;
+	font-family: "Urdupk" !important;
+	vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    direction: rtl;
+	display: inline-block;
+}

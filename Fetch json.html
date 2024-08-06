@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Fetch json example</title>
+   <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+  
+  
+    <h1><span data-v-47a272a5="" class="suraFont">ﮍ</span></h1>
+    <ul></ul><div class="surahs">
+
+        
+</div>
+  </body>
+  <script>
+    const myList = document.querySelector(".surahs");
+
+    fetch("dist/chapters/ur/1.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error, status = ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        for (const verse of data.verses) {
+          const listItem = document.createElement("div");
+          
+          const nameElement = document.createElement("ar");
+          nameElement.textContent = verse.text;
+          
+          const priceElement = document.createElement("ur");
+          priceElement.textContent =  verse.translation;
+         
+		  listItem.append(
+            nameElement,
+            ` ﴿${verse.id}﴾ `,
+            priceElement,
+          );
+          myList.appendChild(listItem);
+        }
+      })
+      .catch((error) => {
+        const p = document.createElement("p");
+        p.appendChild(document.createTextNode(`Error: ${error.message}`));
+        document.body.insertBefore(p, myList);
+      });
+  </script>
+</html>
