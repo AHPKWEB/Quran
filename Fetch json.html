@@ -38,13 +38,13 @@
           const nameElement = document.createElement("ar");
           nameElement.textContent = verse.text;
           
-          const priceElement = document.createElement("ur");
-          priceElement.textContent =  verse.translation;
+          const transElement = document.createElement("ur");
+          transElement.textContent =  verse.translation;
          
 		  listItem.append(
             nameElement,
             ` ﴿${verse.id}﴾ `,
-            priceElement,
+            transElement,
           );
           myList.appendChild(listItem);
         }
