@@ -84,3 +84,12 @@ DEVELOPER:Lajnah Pentashihan M Zamroni Ahbab
 	font-weight: normal;
 	font-style: normal;
 } 
+/************************
+07: Arabic Quran script 
+DEVELOPER:Lajnah Quran script
+************************/
+@font-face {
+  font-family: 'surah-name-v4-icon';
+  src: url('font/surah-name-v4.ttf');
+  font-display: swap;
+}
