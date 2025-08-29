@@ -89,7 +89,7 @@ DEVELOPER:Lajnah Pentashihan M Zamroni Ahbab
 DEVELOPER:Lajnah Quran script
 ************************/
 @font-face {
-  font-family: 'surah-name-v4-icon';
-  src: url('font/surah-name-v4.ttf');
+  font-family: "surah-name-v4-icon";
+  src: url("font/surah-name-v4.ttf") format("truetype");
   font-display: swap;
 }
