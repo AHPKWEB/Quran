@@ -90,8 +90,8 @@ DEVELOPER:Lajnah Quran script
 ************************/
 @font-face {
   font-family: "surah-name-v4-icon";
-  src: url("font/surah-name-v4.woff2") format("woff2");
-    url("font/surah-name-v4.ttf") format("truetype"),
-    url("font/surah-name-v4.woff") format("woff");
+  src: url("https://ahpkweb.github.io/Quran/font/surah-name-v4.woff2") format("woff2");
+    url("https://ahpkweb.github.io/Quran/font/surah-name-v4.ttf") format("truetype"),
+    url("https://ahpkweb.github.io/Quran/font/surah-name-v4.woff") format("woff");
   font-display: swap;
 }
